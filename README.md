@@ -1,0 +1,1 @@
+Maven Testng integration example
