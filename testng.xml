@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<suite name="Sample test Suite">
-   <test name="Sample test">
-    <parameter name="propertyname" value="value1"/>
+<suite name="AccompliceTestSuite">
+
+   <test name="1">
     <classes>
-      <class name="io.accomplice.testing.selenium.testclasses.EntityTeam_Test" />
+      <class name="io.accomplice.testing.selenium.testclasses.TeamTests">
+      	<!-- <methods>
+      		<include name="testMethod"/>
+      	</methods> -->
+      </class>
     </classes>
   </test>
+
+
+
 </suite>

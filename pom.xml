@@ -30,9 +30,6 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
-					<systemPropertyVariables>
-						<propertyname>value0</propertyname>
-					</systemPropertyVariables>
 				</configuration>
 			</plugin>
 		</plugins>
