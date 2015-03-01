@@ -20,7 +20,7 @@ public class EntityTeam_Test {
 	@Parameters("propertyname")
 	public void method(String p) {
 		System.out.println(p);
-		Assert.assertTrue(true);
+		Assert.assertTrue(false);
 	}
 	
 }
