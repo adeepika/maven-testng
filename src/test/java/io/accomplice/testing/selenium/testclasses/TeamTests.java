@@ -10,17 +10,18 @@
 
 package io.accomplice.testing.selenium.testclasses;
 
-import org.testng.Assert;
-import org.testng.annotations.Parameters;
+import io.accomplice.testing.selenium.utils.TeamUtils;
+import junit.framework.Assert;
+
 import org.testng.annotations.Test;
 
-public class EntityTeam_Test {
+public class TeamTests {
 
 	@Test
-	@Parameters("propertyname")
-	public void method(String p) {
-		System.out.println(p);
-		Assert.assertTrue(true);
+	public void test_CreateTeam(String name) {
+		TeamUtils.createTeam(name);
+		Assert.assertTrue(TeamUtils.isTeamPresent(name));
+		//String xpath = JSONREADER.get("test_CreateTeam").get("xpathTextBox")
 	}
 	
 }
