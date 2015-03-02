@@ -10,6 +10,10 @@
 
 package io.accomplice.testing.selenium.utils;
 
+/**
+ * @author MABH
+ *
+ */
 public class Common {
 	public static void login() {
 		
