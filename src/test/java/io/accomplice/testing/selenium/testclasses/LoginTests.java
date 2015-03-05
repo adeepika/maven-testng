@@ -10,23 +10,22 @@
 
 package io.accomplice.testing.selenium.testclasses;
 
-import io.accomplice.testing.selenium.utils.TeamUtils;
 import junit.framework.Assert;
 
 import org.testng.annotations.Test;
 
-@Test(groups = {"TEAM-1"})
-public class TeamTests {
+@Test(groups = {"LOGIN-1"})
+public class LoginTests {
 
 	@Test
-	public void test_Team1() {
-		System.out.println("runnig test Team1");
+	public void test_Login1() {
+		System.out.println("runnig test1");
 		Assert.assertTrue(true);
 	}
 
 	@Test
-	public void test_Team2() {
-		System.out.println("runnig test Team2");
-		Assert.assertTrue(false);
+	public void test_Login2() {
+		System.out.println("runnig test2");
+		Assert.assertTrue(true);
 	}
 }

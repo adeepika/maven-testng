@@ -16,6 +16,6 @@ public class TeamUtils {
 	}
 	
 	public static boolean isTeamPresent(String name) {
-		return false;
+		return true;
 	}
 }

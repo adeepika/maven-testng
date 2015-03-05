@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <suite name="AccompliceTestSuite">
-
-   <test name="1">
-    <classes>
-      <class name="io.accomplice.testing.selenium.testclasses.TeamTests">
-      	<!-- <methods>
-      		<include name="testMethod"/>
-      	</methods> -->
-      </class>
-    </classes>
-  </test>
-
-
-
+	<test name="X">
+		<groups>
+			<run>
+<!-- 				<include name="LOGIN-1"/> -->
+				<include name="TEAM-1"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="io.accomplice.testing.selenium.testclasses.TeamTests" />
+			<class name="io.accomplice.testing.selenium.testclasses.LoginTests" />
+		</classes>
+	</test>
 </suite>
