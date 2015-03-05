@@ -8,7 +8,6 @@
 			</run>
 		</groups>
 		<classes>
-			<class name="io.accomplice.testing.selenium.testclasses.TeamTests" />
 			<class name="io.accomplice.testing.selenium.testclasses.LoginTests" />
 		</classes>
 	</test>
