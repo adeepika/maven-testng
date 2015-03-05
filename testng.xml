@@ -4,8 +4,7 @@
 	<test name="X">
 		<groups>
 			<run>
-<!-- 				<include name="LOGIN-1"/> -->
-				<include name="TEAM-1"/>
+				<include name="LOGIN-1"/>
 			</run>
 		</groups>
 		<classes>
